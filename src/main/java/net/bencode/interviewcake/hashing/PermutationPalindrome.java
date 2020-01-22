@@ -8,6 +8,7 @@ public class PermutationPalindrome {
 
 
     // 2nd attempt
+    // O(n) time O(n) space
     public static boolean check(String input) {
 
         Set<Character> characterSet = new HashSet<>();
